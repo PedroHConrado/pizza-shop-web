@@ -1,6 +1,5 @@
 import { QueryClientProvider } from '@tanstack/react-query'
 import { render } from '@testing-library/react'
-import type { HTMLInputTypeAttribute } from 'react'
 import { HelmetProvider } from 'react-helmet-async'
 import { MemoryRouter } from 'react-router-dom'
 
