@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./web/public/logo.png" alt="Pizza Shop" />
+  <img src="./public/logo.png" alt="Pizza Shop" />
 </div>
 
 <hr/>
