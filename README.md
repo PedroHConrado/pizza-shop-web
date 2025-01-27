@@ -12,22 +12,22 @@ This applications is a dashboard for establishment management and order control.
 ## Screenshots
 
 <div align="center" id="top"> 
-  <img src="./web/public/sign-in.png" alt="Página de login" />
+  <img src="./public/sign-in.png" alt="Página de login" />
 </div>
 <br/>
 <br/>
 <div align="center" id="top"> 
-  <img src="./web/public/sign-up.png" alt="Página de cadastro" />
+  <img src="./public/sign-up.png" alt="Página de cadastro" />
 </div>
 <br/>
 <br/>
 <div align="center" id="top"> 
-<img src="./web/public/dashboard.png" alt="Dashboard" />
+<img src="./public/dashboard.png" alt="Dashboard" />
 </div>
 <br/>
 <br/>
 <div align="center" id="top"> 
-  <img src="./web/public/orders.png" alt="Página de pedidos" />
+  <img src="./public/orders.png" alt="Página de pedidos" />
 </div>
 
 
@@ -61,21 +61,11 @@ Before starting, you need to have [Git](https://git-scm.com), [Node](https://nod
 $ git clone https://github.com/PedroHConrado/pizza-shop
 
 # Access
-$ cd pizza-shop/api
-
-# Install API dependencies
-$ docker compose up -d
-$ bun i
-$ bun migrate
-$ bun seed
-# Run the project
-$ bun dev
-
-# Access
-$ cd pizza-shop/web
+$ cd pizza-shop-web
 
 # Install Web dependencies
 $ npm i
+
 # Run the project
 $ npm run dev
 
